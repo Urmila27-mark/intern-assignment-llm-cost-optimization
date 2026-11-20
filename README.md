@@ -10,7 +10,7 @@ it cheaper without changing the graded fields (`action` and `kb_article`).
 
 **A note about the video:** I was not able to record a demo video in time, so instead of a video I
 have written the full walkthrough as a script at the bottom of this file
-(see "Video walkthrough script"). I'm happy to record it if that is needed.
+(see "Video walkthrough script").
 
 ## Results
 
