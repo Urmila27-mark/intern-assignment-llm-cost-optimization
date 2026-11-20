@@ -1,0 +1,20 @@
+T-1001 REFUND returns-within-30-days TOTAL 73602
+   triage in 8453 cached 0 out 490 points 32709
+   retrieve in 598 cached 0 out 46 points 2484
+   compose in 1199 cached 0 out 489 points 10932
+   audit in 6724 cached 0 out 487 points 27477
+T-1002 SEND_ARTICLE digital-license-no-refund TOTAL 73458
+   triage in 8449 cached 0 out 495 points 32772
+   retrieve in 606 cached 0 out 39 points 2403
+   compose in 1194 cached 0 out 482 points 10812
+   audit in 6707 cached 0 out 490 points 27471
+T-1003 ESCALATE_TIER2 custom-items-no-replace TOTAL 73356
+   triage in 8439 cached 0 out 495 points 32742
+   retrieve in 605 cached 0 out 39 points 2400
+   compose in 1181 cached 0 out 480 points 10743
+   audit in 6692 cached 0 out 493 points 27471
+T-1004 REPLACE damage-replacement-7-days TOTAL 73581
+   triage in 8436 cached 0 out 495 points 32733
+   retrieve in 605 cached 0 out 36 points 2355
+   compose in 1180 cached 0 out 495 points 10965
+   audit in 6706 cached 0 out 494 points 27528

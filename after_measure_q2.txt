@@ -1,0 +1,8 @@
+T-1001 REFUND returns-within-30-days TOTAL 1348
+   compose in 1186 cached 1074 out 46 points 1348
+T-1002 SEND_ARTICLE digital-license-no-refund TOTAL 1219
+   compose in 1178 cached 1074 out 39 points 1219
+T-1003 ESCALATE_TIER2 custom-items-no-replace TOTAL 1180
+   compose in 1165 cached 1074 out 39 points 1180
+T-1004 REPLACE damage-replacement-7-days TOTAL 1141
+   compose in 1167 cached 1074 out 36 points 1141

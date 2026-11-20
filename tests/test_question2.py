@@ -21,7 +21,11 @@ def test_pipeline_resolves_public_tickets():
         assert got.kb_article == expected.kb_article
 
 
-def test_baseline_cost_is_high():
-    pipe = SupportPipeline()
-    pipe.handle_ticket(PUBLIC[0])
-    assert pipe.session.total_points() > 70_000
+def test_optimized_cost_under_target():
+    # The original asserted the baseline cost was > 70_000 points for one ticket,
+    # to prove the starting point was expensive. After optimization the
+    # assignment target applies: <= 2500 points per public ticket.
+    for tid in PUBLIC:
+        pipe = SupportPipeline()
+        pipe.handle_ticket(tid)
+        assert pipe.session.total_points() <= 2_500
